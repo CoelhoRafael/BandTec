@@ -30,7 +30,7 @@ color: rgb(71, 7, 71);
 
 }
 .container{
-    width: 50%;
+    width: 56%;
     margin: auto;
     text-align: center;
 }
@@ -58,15 +58,30 @@ color: rgb(71, 7, 71);
 
 /*saber mais*/
 
-.saiba_mais button{
+.saiba_mais .bt {
     border: 0;
     background-color: rgb(71, 7, 71);
     color:#ede9a3 ;
     text-align: center;
     text-transform: uppercase;
 padding: 10px 30px;
+float: left;
 margin-top: 20px;
+margin-left: 20%;
 }
+
+.saiba_mais button{
+    background-color: rgb(71, 7, 71);
+    color:#ede9a3 ;
+    text-align: center;
+    text-transform: uppercase;
+    margin-top: 20px;
+    border: 0;
+    padding: 10px 30px;
+
+
+}
+
 
 .saiba_mais{
     text-align: center;
@@ -100,12 +115,14 @@ padding: 20px;
     background-color: #232323;
     color: white;
     padding-top: 40px;
+    margin-top: 14%;
 }
 .footer h4{
     margin: 0;
     font-weight: 100;
     color: white;
     cursor: pointer;
+    
 
 }
 
@@ -129,3 +146,26 @@ a:link {
      color: white;
  }
  
+
+ /*Estilos do login*/
+
+ .pag-login{
+     background-color: greenyellow;
+ }
+ .box-login{
+     background-color: white;
+     width: 40%;
+     margin: auto;
+     text-align: center;
+     box-shadow:5px 7px 13px 5px grey;;
+ }
+
+ .pag-login h1{
+     margin: 0;
+ }
+li a{
+    text-decoration: none;
+}
+
+
+
