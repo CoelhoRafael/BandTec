@@ -1,2 +1,0 @@
-# BandTec
-Trabalhos BandTec
