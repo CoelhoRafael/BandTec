@@ -1,44 +1,46 @@
-body{
+body {
     font-family: Arial, Helvetica, sans-serif;
 }
 
-.header{
-background-color: blue;
-color: white;
-/* height: 100px; */
-overflow: auto;
-border-bottom: 3px solid rgb(71, 7, 71);
-padding-top: 10px;
-padding-bottom: 10px;
+.header {
+    background-color: blue;
+    color: white;
+    /* height: 100px; */
+    overflow: auto;
+    border-bottom: 3px solid rgb(71, 7, 71);
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
-.navbar{
+
+.navbar {
     list-style: none;
     float: right;
 }
-.titulo{
+
+.titulo {
     float: left;
     margin: 0;
 }
 
 body .header .navbar li {
     float: left;
-    margin-left:10px;
+    margin-left: 10px;
     text-transform: uppercase;
 }
-.destaque{
-color: rgb(71, 7, 71);
 
+.destaque {
+    color: rgb(71, 7, 71);
 }
-.container{
+
+.container {
     width: 50%;
     margin: auto;
     text-align: center;
 }
 
-
 /*banner*/
 
-.banner{
+.banner {
     background-color: #7a7c00;
     text-align: center;
     background-image: url(imgs/bannermusic.jpg);
@@ -46,89 +48,95 @@ color: rgb(71, 7, 71);
     height: 300px;
     background-size: cover;
 }
-.banner h1{
+
+.banner h1 {
     margin: 0;
     font-size: 35px;
     padding-top: 100px;
 }
 
-.banner h3{
+.banner h3 {
     color: white;
 }
 
 /*saber mais*/
 
-.saiba_mais button{
+.saiba_mais button {
     border: 0;
     background-color: rgb(71, 7, 71);
-    color:#ede9a3 ;
+    color: #ede9a3;
     text-align: center;
     text-transform: uppercase;
-padding: 10px 30px;
-margin-top: 20px;
+    padding: 10px 30px;
+    margin-top: 20px;
 }
 
-.saiba_mais{
+.saiba_mais {
     text-align: center;
     background-color: #232323;
     height: 70px;
 }
 
 /*missao visao valores*/
-.box img{
+
+.box img {
     height: 100px;
 }
 
 .box {
     /* border: 3px solid orange; */
     overflow: auto;
-
 }
-
-
 
 .box-item {
-
-margin-top: 10px;
-padding: 20px;
+    margin-top: 10px;
+    padding: 20px;
 }
 
-.footer{
+.footer {
     text-align: center;
     background-color: #232323;
     color: white;
     padding-top: 40px;
 }
-.footer h4{
+
+.footer h4 {
     margin: 0;
     font-weight: 100;
     color: white;
     cursor: pointer;
-
 }
+
 .box .container img {
     align-items: center;
     border: 5px solid rgb(71, 7, 71);
     border-radius: 90px;
 }
+
 /* link que ainda não foi visitado */
+
 a:link {
     color: white;
- }
- 
- /* link que foi visitado */
- a:visited {
-     color: white;
- }
- 
- /* mouse over */
- a:hover {
-     color: white;
- }
- 
- /* link selecionado */
- a:active {
-     color: white;
- }
-a{
- cursor: pointer;}
+}
+
+/* link que foi visitado */
+
+a:visited {
+    color: white;
+}
+
+/* mouse over */
+
+a:hover {
+    color: white;
+}
+
+/* link selecionado */
+
+a:active {
+    color: white;
+}
+
+a {
+    cursor: pointer;
+}
